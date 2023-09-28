@@ -3,6 +3,7 @@ module.exports = {
     {
       name: 'construction-site',        // Name of your application
       script: 'index.js',    // Path to your entry script
+      cwd: '../construction-site',
       instances: 1,          // Number of instances to run (adjust as needed)
       autorestart: true,     // Enable auto-restart on failure
       watch: false,          // Enable file watching for changes
